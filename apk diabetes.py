@@ -4,7 +4,6 @@ import sqlite3
 
 DB_NAME = "prediksi_diabetes.db"
 
-
 # Membuat database dan tabel
 def buat_database():
     conn = sqlite3.connect(DB_NAME)
